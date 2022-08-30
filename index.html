@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="icon.png">
+        <link rel="stylesheet" href="app.css">
+    </head>
+    <body>
+        <script src="app.js" async defer></script>
+        <header>
+            <h2>SIMPLE CALCULATOR</h2>
+        </header>
+        
+        <div class="container">
+            <div>
+                <input type='text' id='display' class ='screen'> 
+            </div>
+        
+            <div class="buttons">
+                <input type="button" value="7" class="button" onClick="display('7')"></input>            
+                <input type="button" value="8" class="button " onClick="display('8')"></input>            
+                <input type="button" value="9" class="button" onClick="display('9')"></input>            
+                <input type="button" value="/" class="operator" onClick="display('/')"></input>            
+                <input type="button" value="4" class="button" onClick="display('4')"></input>            
+                <input type="button" value="5" class="button" onClick="display('5')"></input>            
+                <input type="button" value="6" class="button" onClick="display('6')"></input>            
+                <input type="button" value="*" class="operator" onClick="display('*')"></input>            
+                <input type="button" value="1" class="button" onClick="display('1')"></input>            
+                <input type="button" value="2" class="button" onClick="display('2')"></input>            
+                <input type="button" value="3" class="button" onClick="display('3')"></input>   
+                <input type="button" value="+" class="operator" onClick="display('+')"></input>
+                <input type="button" value="." class="button sign" onClick="display('.')"></input> 
+                <input type="button" value="0" class="button" onClick="display('0')"></input>            
+                <input type="button" value= "=" class="button sign" onClick="solve()"></input>
+                <input type="button" value="-" class="operator" onClick="display('-')"></input>             
+            </div>  
+            <div>
+                <input type='button' value = 'Clear All' onclick="clearScreen()" class="clear"/>
+            </div>        
+
+        </div>
+        <footer>
+            <h4> &copy;sooryajith</h4>
+        </footer>
+        
+    </body>
+
+</html>
+            
